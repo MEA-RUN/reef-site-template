@@ -11,6 +11,6 @@
   "dependencies": {
     "@nuxtjs/i18n": "10.3.0",
     "nuxt": "4.5.2",
-    "reef": "file:../reef"
+    "reef": "file:./reef"
   }
 }

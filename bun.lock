@@ -7,7 +7,7 @@
       "dependencies": {
         "@nuxtjs/i18n": "10.3.0",
         "nuxt": "4.5.2",
-        "reef": "file:../reef",
+        "reef": "file:./reef",
       },
     },
   },
@@ -2338,7 +2338,7 @@
 
     "redis-parser": ["redis-parser@3.0.0", "", { "dependencies": { "redis-errors": "^1.0.0" } }, "sha512-DJnGAeenTdpMEH6uAJRK/uiyEIH9WVsUmoLwzudwGJUwZPp80PDBWPHXSAGNPwNvIXAbe7MSUB1zQFugFml66A=="],
 
-    "reef": ["reef@file:../reef", { "dependencies": { "@nuxt/content": "3.13.0", "@nuxt/fonts": "0.14.0", "@nuxt/icon": "2.2.2", "@nuxt/ui": "4.7.1", "@nuxtjs/i18n": "10.3.0", "@nuxtjs/mdc": "0.21.1", "@nuxtjs/tailwindcss": "6.14.0", "@takumi-rs/core": "1.1.2", "better-sqlite3": "12.9.0", "docus": "5.11.0", "mermaid": "11.14.0", "nuxt": "4.4.4", "sass-embedded": "1.99.0", "typescript": "5.9.3", "zod": "3.25.76", "zod-to-json-schema": "3.25.2" } }],
+    "reef": ["reef@file:./reef", { "dependencies": { "@nuxt/content": "3.13.0", "@nuxt/fonts": "0.14.0", "@nuxt/icon": "2.2.2", "@nuxt/ui": "4.7.1", "@nuxtjs/i18n": "10.3.0", "@nuxtjs/mdc": "0.21.1", "@nuxtjs/tailwindcss": "6.14.0", "@takumi-rs/core": "1.1.2", "better-sqlite3": "12.9.0", "docus": "5.11.0", "mermaid": "11.14.0", "nuxt": "4.4.4", "sass-embedded": "1.99.0", "typescript": "5.9.3", "zod": "3.25.76", "zod-to-json-schema": "3.25.2" } }],
 
     "regex": ["regex@6.1.0", "", { "dependencies": { "regex-utilities": "^2.3.0" } }, "sha512-6VwtthbV4o/7+OaAF9I5L5V3llLEsoPyq9P1JVXkedTP33c7MfCG0/5NOPcSJn0TzXcG9YUrR0gQSWioew3LDg=="],
 
