@@ -5,17 +5,6 @@ const sourceRepository = process.env.REEF_SOURCE_REPOSITORY
 export default defineNuxtConfig({
   extends: ['reef'],
 
-  modules: ['@nuxtjs/i18n'],
-
-  i18n: {
-    baseUrl: process.env.NUXT_SITE_URL,
-    defaultLocale: 'fr',
-    locales: [
-      { code: 'fr', name: 'Français' },
-      { code: 'en', name: 'English' },
-    ],
-  },
-
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/',
   },
