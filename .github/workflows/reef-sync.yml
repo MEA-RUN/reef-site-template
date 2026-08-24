@@ -1,0 +1,19 @@
+name: Sync and deploy Reef site
+
+on:
+  repository_dispatch:
+    types: [reef-create, reef-update, reef-tools]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  sync:
+    uses: MEA-RUN/actions/.github/workflows/reef-sync.yml@main
+    with:
+      source_repository: ${{ github.event.client_payload.source_repository }}
+      source_sha: ${{ github.event.client_payload.source_sha }}
+      mode: ${{ github.event.client_payload.mode }}
+    secrets: inherit

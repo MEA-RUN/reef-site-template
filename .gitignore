@@ -1,0 +1,6 @@
+.data
+.nuxt
+.output
+.env
+node_modules
+*.log

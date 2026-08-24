@@ -1,0 +1,16 @@
+{
+  "name": "reef-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "bun@1.4.0",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "10.3.0",
+    "nuxt": "4.5.2",
+    "reef": "github:MEA-RUN/reef"
+  }
+}
