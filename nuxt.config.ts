@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n'],
 
   i18n: {
+    baseUrl: process.env.NUXT_SITE_URL,
     defaultLocale: 'fr',
     locales: [
       { code: 'fr', name: 'Français' },
